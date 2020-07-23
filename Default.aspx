@@ -17,7 +17,6 @@
                 OnRowCancelingEdit="gvPhoneBook_RowCancelingEdit" 
                 OnRowUpdating="gvPhoneBook_RowUpdating"
                 OnRowDeleting="gvPhoneBook_RowDeleting"
-                
                 BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="3">
                 <FooterStyle BackColor="White" ForeColor="#000066" />
                 <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
@@ -93,7 +92,6 @@
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
-
             <br />
             <asp:Label ID="lbldonemsg" Text="" runat="server" ForeColor="Green" />
             <br />
